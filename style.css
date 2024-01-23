@@ -1,0 +1,26 @@
+.field {
+    border: 2px solid black;
+}
+
+.forward {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.mid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.def {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gk {
+    display: grid;
+}
+
+.forward, .mid, .def, .gk {
+    border: 1px solid salmon;
+}
